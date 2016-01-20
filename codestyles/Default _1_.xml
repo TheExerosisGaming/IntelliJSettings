@@ -1,9 +1,0 @@
-<code_scheme name="Default (1)">
-  <option name="FIELD_NAME_PREFIX" value="_" />
-  <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
-  </XML>
-  <codeStyleSettings language="JAVA">
-    <option name="ELSE_ON_NEW_LINE" value="true" />
-  </codeStyleSettings>
-</code_scheme>
