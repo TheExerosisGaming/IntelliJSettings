@@ -18,8 +18,12 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="Exerosis" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/BlockServerProject/BlockServer-PE" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\The Exerosis\ExcillionProject\Projects" />
+    <option name="cloneParentDir" value="C:\Users\Exerosis\Workspaces\IntelliJ IDEA Workspace\Projects\BlockServer-PE" />
   </component>
 </application>
