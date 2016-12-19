@@ -10,7 +10,7 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*SEVERE.*" />
+                      <option name="grepExpression" value=".*ERROR.*" />
                       <option name="id" value="5ac14382-dc30-4bce-b2e6-22b5cf8f2d20" />
                       <option name="showCountInStatusBar" value="true" />
                       <option name="style">
@@ -28,6 +28,42 @@
                             </GrepColor>
                           </option>
                           <option name="id" value="eb9fb814-a2ad-49f3-8ea1-e560c5082c75" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*SEVERE.*" />
+                      <option name="id" value="a6515cfe-f888-440d-a39c-d8859ccbdb75" />
+                      <option name="showCountInStatusBar" value="true" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-11316396" />
+                            </GrepColor>
+                          </option>
+                          <option name="bold" value="true" />
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="color" value="-4046013" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="id" value="eb9fb814-a2ad-49f3-8ea1-e560c5082c75" />
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="grepExpression" value=".*INFO.*" />
+                      <option name="id" value="9edca404-9ece-440e-9e89-732d61f39e82" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-16742007" />
+                            </GrepColor>
+                          </option>
+                          <option name="id" value="fdc6927c-a2c6-4039-86f7-2037d8ff75be" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
@@ -61,6 +97,7 @@
           </option>
           <option name="id" value="1482185032828" />
           <option name="maxLengthToMatch" value="20" />
+          <option name="multiLineOutput" value="true" />
         </Profile>
       </list>
     </option>
