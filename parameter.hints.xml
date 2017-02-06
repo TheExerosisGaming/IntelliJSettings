@@ -1,7 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
-    <blacklists />
-    <showIfParamNameContained value="true" />
-    <showWhenMultipleParamsWithSameType value="false" />
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="net.wizartmc.core.Extensions.runnable(consumer,first)" />
+      </blacklist>
+    </blacklists>
   </component>
 </application>
