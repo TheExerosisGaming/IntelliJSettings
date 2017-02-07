@@ -3,6 +3,8 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="net.wizartmc.core.Extensions.runnable(consumer,first)" />
+        <added pattern="net.wizartmc.engine.utilites.PredicateUtilities.lessThan(amount)" />
+        <added pattern="net.wizartmc.engine.utilites.PredicateUtilities.greaterThan(amount)" />
       </blacklist>
     </blacklists>
   </component>
