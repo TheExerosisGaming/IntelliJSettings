@@ -22,7 +22,7 @@
   <action id="GuiDesigner.QuickJavadoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
-  <action id="Hotswap">
+  <action id="MakeGradleModule">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="PropertyInspectorActions.AddProperty" />
