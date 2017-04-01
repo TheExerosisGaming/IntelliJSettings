@@ -1,9 +1,9 @@
 <toolSet name="External Tools">
   <tool name="Redis" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="C:\Home\Workspace\IntelliJ IDEA\WizartMC\Games\Servers\Redis\redis-server.exe" />
+      <option name="COMMAND" value="$ProjectFileDir$\Games\Servers\Redis\redis-server.exe" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="C:/Home/Workspace/IntelliJ IDEA/WizartMC/Games/Servers/Redis" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/Games/Servers/Redis" />
     </exec>
   </tool>
 </toolSet>
