@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy 1" parent="$default">
+  <action id="CodeCompletion" />
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
@@ -7,8 +8,24 @@
   </action>
   <action id="EditorDuplicate" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindInPath" />
+  <action id="GuiDesigner.QuickJavadoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="Vcs.Log.ShowDiff" />
   <action id="openAssertEqualsDiff" />
 </keymap>
