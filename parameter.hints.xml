@@ -1,10 +1,14 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="Java" />
       <blacklist language="Java">
         <added pattern="net.wizartmc.core.Extensions.runnable(consumer,first)" />
         <added pattern="net.wizartmc.engine.utilites.PredicateUtilities.lessThan(amount)" />
         <added pattern="net.wizartmc.engine.utilites.PredicateUtilities.greaterThan(amount)" />
+        <added pattern="me.exerosis.reflection.ReflectClass.getField(name)" />
+        <added pattern="me.exerosis.reflection.ReflectClass.getMethod(name)" />
+        <added pattern="me.exerosis.reflection.ReflectClass.field(name)" />
       </blacklist>
     </blacklists>
   </component>
