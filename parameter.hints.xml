@@ -10,6 +10,7 @@
         <added pattern="me.exerosis.reflection.ReflectClass.getMethod(name)" />
         <added pattern="me.exerosis.reflection.ReflectClass.field(name)" />
         <added pattern="me.exerosis.reflection.ReflectClass.value(name)" />
+        <added pattern="me.exerosis.reflection.Reflect.Class(className)" />
       </blacklist>
     </blacklists>
   </component>
