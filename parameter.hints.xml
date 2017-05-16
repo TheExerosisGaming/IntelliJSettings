@@ -12,6 +12,7 @@
         <added pattern="me.exerosis.reflection.ReflectClass.value(name)" />
         <added pattern="me.exerosis.reflection.Reflect.Class(className)" />
         <added pattern="me.exerosis.reflection.gamma.ReflectField.getField()" />
+        <added pattern="com.comphenix.protocol.reflect.StructureModifier.write(fieldIndex,value)" />
       </blacklist>
     </blacklists>
   </component>
