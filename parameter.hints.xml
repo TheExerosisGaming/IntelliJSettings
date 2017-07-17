@@ -15,6 +15,8 @@
         <added pattern="com.comphenix.protocol.reflect.StructureModifier.write(fieldIndex,value)" />
         <added pattern="me.exerosis.packet.utils.ticker.Ticker.unregisterListener(tickListener)" />
         <added pattern="me.exerosis.packet.utils.ticker.Ticker.registerListener(tickListener)" />
+        <added pattern="me.exerosis.nameplates.ExTask.stopTask(runnable)" />
+        <added pattern="me.exerosis.nameplates.ExTask.startTask(runnable,delay,time)" />
       </blacklist>
     </blacklists>
   </component>
