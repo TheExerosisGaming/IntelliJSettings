@@ -17,6 +17,8 @@
         <added pattern="me.exerosis.packet.utils.ticker.Ticker.registerListener(tickListener)" />
         <added pattern="me.exerosis.nameplates.ExTask.stopTask(runnable)" />
         <added pattern="me.exerosis.nameplates.ExTask.startTask(runnable,delay,time)" />
+        <added pattern="org.bukkit.ChatColor.translateAlternateColorCodes(altColorChar,textToTranslate)" />
+        <added pattern="org.bukkit.configuration.MemorySection.getString(path,def)" />
       </blacklist>
     </blacklists>
   </component>
