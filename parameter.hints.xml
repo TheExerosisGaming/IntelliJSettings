@@ -19,6 +19,7 @@
         <added pattern="me.exerosis.nameplates.ExTask.startTask(runnable,delay,time)" />
         <added pattern="org.bukkit.ChatColor.translateAlternateColorCodes(altColorChar,textToTranslate)" />
         <added pattern="org.bukkit.configuration.MemorySection.getString(path,def)" />
+        <added pattern="me.engineone.engine.components.scheduler.Scheduler.TaskBuilder.forNext(number)" />
       </blacklist>
     </blacklists>
   </component>
