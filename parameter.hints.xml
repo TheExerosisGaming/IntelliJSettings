@@ -21,6 +21,7 @@
         <added pattern="org.bukkit.configuration.MemorySection.getString(path,def)" />
         <added pattern="me.engineone.engine.components.scheduler.Scheduler.TaskBuilder.forNext(number)" />
         <added pattern="java.io.File.getPath()" />
+        <added pattern="java.io.File.File(pathname)" />
       </blacklist>
     </blacklists>
   </component>
