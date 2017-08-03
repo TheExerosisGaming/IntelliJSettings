@@ -22,6 +22,7 @@
         <added pattern="me.engineone.engine.components.scheduler.Scheduler.TaskBuilder.forNext(number)" />
         <added pattern="java.io.File.getPath()" />
         <added pattern="java.io.File.File(pathname)" />
+        <added pattern="java.lang.String.replace(target,replacement)" />
       </blacklist>
     </blacklists>
   </component>
