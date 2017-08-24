@@ -24,6 +24,7 @@
         <added pattern="java.lang.String.replace(target,replacement)" />
         <added pattern="me.engineone.core.utilites.SwitchUtils.Ca.se(value,ca)" />
         <added pattern="me.engineone.core.utilites.SwitchUtils.when(input,closure)" />
+        <added pattern="me.engineone.core.utilites.SwitchUtils.Ca.se(value,se)" />
       </blacklist>
     </blacklists>
   </component>
