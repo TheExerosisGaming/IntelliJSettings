@@ -25,6 +25,7 @@
         <added pattern="me.engineone.core.utilites.SwitchUtils.Ca.se(value,ca)" />
         <added pattern="me.engineone.core.utilites.SwitchUtils.when(input,closure)" />
         <added pattern="me.engineone.core.utilites.SwitchUtils.Ca.se(value,se)" />
+        <added pattern="java.util.concurrent.Future.cancel(mayInterruptIfRunning)" />
       </blacklist>
     </blacklists>
   </component>
