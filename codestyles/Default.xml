@@ -1,11 +1,12 @@
 <code_scheme name="Default">
+  <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
+  <option name="JD_ALIGN_EXCEPTION_COMMENTS" value="false" />
+  <option name="JD_PARAM_DESCRIPTION_ON_NEW_LINE" value="true" />
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
   </AndroidXmlCodeStyleSettings>
   <XML>
-    <option name="XML_KEEP_LINE_BREAKS" value="false" />
-    <option name="XML_ALIGN_ATTRIBUTES" value="false" />
-    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="XML">
     <indentOptions>
