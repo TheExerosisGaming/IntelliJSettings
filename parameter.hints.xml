@@ -29,6 +29,7 @@
         <added pattern="com.jaredscarito.stratosdrop.Scoreboard.add(score,line)" />
         <added pattern="com.jaredscarito.stratosdrop.Scoreboard.add(line,score)" />
         <added pattern="org.javatuples.Pair.with(value0,value1)" />
+        <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier)" />
       </blacklist>
     </blacklists>
   </component>
