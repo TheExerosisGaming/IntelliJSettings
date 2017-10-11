@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="listener" value="addChild(Events.listen($EVENT$.class, event -&gt; {&#10;&#10;}));" shortcut="ENTER" description="Adds a listener component" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
