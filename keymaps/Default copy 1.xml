@@ -1,12 +1,21 @@
 <keymap version="1" name="Default copy 1" parent="$default">
   <action id="CodeCompletion" />
   <action id="CompareTwoFiles" />
+  <action id="DecreaseColumnWidth" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FindInPath" />
   <action id="Generate">
@@ -17,7 +26,15 @@
     <mouse-shortcut keystroke="alt button2" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="IncreaseColumnWidth" />
+  <action id="IncrementWindowWidth" />
   <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="MoveElementLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="MoveElementRight">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
   <action id="OverrideMethods" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -28,6 +45,8 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
   <action id="ShowIntentionActions">
