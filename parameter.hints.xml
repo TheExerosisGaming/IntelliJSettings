@@ -30,6 +30,8 @@
         <added pattern="com.jaredscarito.stratosdrop.Scoreboard.add(line,score)" />
         <added pattern="org.javatuples.Pair.with(value0,value1)" />
         <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier)" />
+        <added pattern="com.penzzly.engine.core.utilites.bukkit.Functions.isCancelled(whenTrue)" />
+        <added pattern="com.penzzly.engine.core.utilites.bukkit.Functions.isCancelled(whenFalse)" />
       </blacklist>
     </blacklists>
   </component>
