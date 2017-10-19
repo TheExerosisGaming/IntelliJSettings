@@ -78,6 +78,14 @@
           <option name="url" value="https://gitlab.com/grizzlyuhcf/gHCF" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/TheExerosisGaming/CorruptionRenderer" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/TheExerosisGaming/CorruptionGenerator" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Home\Workspace\IntelliJ IDEA" />
