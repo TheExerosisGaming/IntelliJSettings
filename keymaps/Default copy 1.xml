@@ -53,5 +53,8 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="Vcs.Log.ShowDiff" />
+  <action id="floobits.AddToWorkspace2">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
