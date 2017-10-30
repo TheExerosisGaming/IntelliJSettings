@@ -32,6 +32,7 @@
         <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier)" />
         <added pattern="com.penzzly.engine.core.utilites.bukkit.Functions.isCancelled(whenTrue)" />
         <added pattern="com.penzzly.engine.core.utilites.bukkit.Functions.isCancelled(whenFalse)" />
+        <added pattern="Main.byClass(name)" />
       </blacklist>
     </blacklists>
   </component>
