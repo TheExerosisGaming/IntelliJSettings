@@ -35,6 +35,9 @@
         <added pattern="Main.byClass(name)" />
         <added pattern="API.API(username,password)" />
         <added pattern="API.byClass(name,index)" />
+        <added pattern="API.byClass(name)" />
+        <added pattern="API.byClass(name,await)" />
+        <added pattern="API.navigate(path)" />
       </blacklist>
     </blacklists>
   </component>
