@@ -34,6 +34,7 @@
         <added pattern="com.penzzly.engine.core.utilites.bukkit.Functions.isCancelled(whenFalse)" />
         <added pattern="Main.byClass(name)" />
         <added pattern="API.API(username,password)" />
+        <added pattern="API.byClass(name,index)" />
       </blacklist>
     </blacklists>
   </component>
