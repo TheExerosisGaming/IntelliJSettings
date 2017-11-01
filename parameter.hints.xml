@@ -38,6 +38,9 @@
         <added pattern="API.byClass(name)" />
         <added pattern="API.byClass(name,await)" />
         <added pattern="API.navigate(path)" />
+        <added pattern="java.util.concurrent.TimeUnit.toHours(duration)" />
+        <added pattern="java.util.concurrent.TimeUnit.toMinutes(duration)" />
+        <added pattern="java.util.concurrent.TimeUnit.toSeconds(duration)" />
       </blacklist>
     </blacklists>
   </component>
