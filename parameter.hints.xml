@@ -44,6 +44,7 @@
         <added pattern="com.penzzly.engine.architecture.utilites.Extensions.runnable(consumer,first)" />
         <added pattern="io.reactivex.Observable.intervalRange(start,count,initialDelay,period,unit)" />
         <added pattern="org.bukkit.Bukkit.createInventory(owner,size)" />
+        <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier,ambient)" />
       </blacklist>
     </blacklists>
   </component>
