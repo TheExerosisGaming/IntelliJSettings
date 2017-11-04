@@ -43,6 +43,7 @@
         <added pattern="java.util.concurrent.TimeUnit.toSeconds(duration)" />
         <added pattern="com.penzzly.engine.architecture.utilites.Extensions.runnable(consumer,first)" />
         <added pattern="io.reactivex.Observable.intervalRange(start,count,initialDelay,period,unit)" />
+        <added pattern="org.bukkit.Bukkit.createInventory(owner,size)" />
       </blacklist>
     </blacklists>
   </component>
