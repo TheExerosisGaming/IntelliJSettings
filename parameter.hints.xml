@@ -45,6 +45,7 @@
         <added pattern="io.reactivex.Observable.intervalRange(start,count,initialDelay,period,unit)" />
         <added pattern="org.bukkit.Bukkit.createInventory(owner,size)" />
         <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier,ambient)" />
+        <added pattern="arg(index,options)" />
       </blacklist>
     </blacklists>
   </component>
