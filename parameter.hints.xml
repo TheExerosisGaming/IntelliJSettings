@@ -46,6 +46,7 @@
         <added pattern="org.bukkit.Bukkit.createInventory(owner,size)" />
         <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier,ambient)" />
         <added pattern="arg(index,options)" />
+        <added pattern="com.penzzly.engine.core.base.window.TransactionHandler.s(description)" />
       </blacklist>
     </blacklists>
   </component>
