@@ -47,6 +47,8 @@
         <added pattern="org.bukkit.potion.PotionEffect.PotionEffect(type,duration,amplifier,ambient)" />
         <added pattern="arg(index,options)" />
         <added pattern="com.penzzly.engine.core.base.window.TransactionHandler.s(description)" />
+        <added pattern="com.penzzly.engine.core.base.Scheduler.in(number)" />
+        <added pattern="com.penzzly.engine.core.base.Scheduler.ConditionBuilder.forTheNext(number)" />
       </blacklist>
     </blacklists>
   </component>
