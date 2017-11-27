@@ -1,5 +1,5 @@
 <templateSet group="penzzly">
-  <template name="listener" value="private final List&lt;Consumer&lt;$Type$&gt;&gt; $name$Listeners = new ArrayList&lt;&gt;();&#10;&#10;public Consumer&lt;$Type$&gt; on$Name$(Consumer&lt;$Type$&gt; listener){&#10;&#9;$name$Listeners.add(listener);&#10;    return listener;&#10;}&#10;&#10;public List&lt;Consumer&lt;$Type$&gt;&gt; get$Name$Listeners(){&#10;   return $name$Listeners;&#10;}" description="Creates a new functional listener" toReformat="true" toShortenFQNames="true">
+  <template name="event" value="private final java.util.List&lt;Consumer&lt;$Type$&gt;&gt; $name$Listeners = new java.util.ArrayList&lt;&gt;();&#10;&#10;public java.util.function.Consumer&lt;$Type$&gt; on$Name$(java.util.function.Consumer&lt;$Type$&gt; listener){&#10;&#9;$name$Listeners.add(listener);&#10;    return listener;&#10;}&#10;&#10;public java.util.List&lt;java.util.function.Consumer&lt;$Type$&gt;&gt; get$Name$Listeners(){&#10;   return $name$Listeners;&#10;}" description="Creates a new functional event" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
@@ -7,8 +7,15 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="event" value="addChild(Events.listen(($Event$ event) -&gt; {&#10;    $END$&#10;}));" description="Creates a new Bukkit event listener" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+  <template name="listener" value="addChild(com.penzzly.engine.core.base.Events.listen(($Event$ event) -&gt; {&#10;    $END$&#10;}));" description="Creates a new Bukkit event listener" toReformat="false" toShortenFQNames="true" useStaticImport="true">
     <variable name="Event" expression="subtypes(org.bukkit.event.Event)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="list" value="final java.util.List&lt;$Type$&gt; $name$ = new java.util.ArrayList&lt;&gt;();" description="Creates a new ArrayList" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
