@@ -51,6 +51,7 @@
         <added pattern="com.penzzly.engine.core.base.Scheduler.ConditionBuilder.forTheNext(number)" />
         <added pattern="java.lang.ProcessBuilder.ProcessBuilder(command)" />
         <added pattern="me.exerosis.taptweaker.Util.getID(command,errors)" />
+        <added pattern="org.bukkit.command.CommandSender.sendMessage(s)" />
       </blacklist>
     </blacklists>
   </component>
