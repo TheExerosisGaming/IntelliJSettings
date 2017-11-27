@@ -52,6 +52,7 @@
         <added pattern="java.lang.ProcessBuilder.ProcessBuilder(command)" />
         <added pattern="me.exerosis.taptweaker.Util.getID(command,errors)" />
         <added pattern="org.bukkit.command.CommandSender.sendMessage(s)" />
+        <added pattern="com.penzzly.engine.core.utilites.LoadingBar.LoadingBar(length,loaded,unloaded)" />
       </blacklist>
     </blacklists>
   </component>
