@@ -7,4 +7,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="event" value="addChild(Events.listen(($Event$ event) -&gt; {&#10;    $END$&#10;}));" description="Creates a new Bukkit event listener" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="Event" expression="subtypes(org.bukkit.event.Event)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
