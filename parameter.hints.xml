@@ -54,6 +54,7 @@
         <added pattern="org.bukkit.command.CommandSender.sendMessage(s)" />
         <added pattern="com.penzzly.engine.core.utilites.LoadingBar.LoadingBar(length,loaded,unloaded)" />
         <added pattern="java.util.function.BiConsumer.accept(t,u)" />
+        <added pattern="com.penzzly.engine.core.components.command.CommandGroup.onCommand(name,command)" />
       </blacklist>
     </blacklists>
   </component>
