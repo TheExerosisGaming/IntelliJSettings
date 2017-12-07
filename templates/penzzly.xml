@@ -17,6 +17,16 @@
     <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="map" value="final java.util.Map&lt;$Key$, $Value$&gt; $name$ = new java.util.HashMap&lt;&gt;();" description="Creates a new HashMap" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="Key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
