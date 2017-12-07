@@ -1,5 +1,5 @@
 <templateSet group="penzzly">
-  <template name="event" value="private final java.util.List&lt;Consumer&lt;$Type$&gt;&gt; $name$Listeners = new java.util.ArrayList&lt;&gt;();&#10;&#10;public java.util.function.Consumer&lt;$Type$&gt; on$Name$(java.util.function.Consumer&lt;$Type$&gt; listener){&#10;&#9;$name$Listeners.add(listener);&#10;    return listener;&#10;}&#10;&#10;public java.util.List&lt;java.util.function.Consumer&lt;$Type$&gt;&gt; get$Name$Listeners(){&#10;   return $name$Listeners;&#10;}" description="Creates a new functional event" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="event" value="private final java.util.List&lt;Consumer&lt;$Type$&gt;&gt; $name$Listeners = new java.util.ArrayList&lt;&gt;();&#10;&#10;public java.util.function.Consumer&lt;$Type$&gt; on$Name$(java.util.function.Consumer&lt;$Type$&gt; listener){&#10;&#9;$name$Listeners.add(listener);&#10;    return listener;&#10;}&#10;&#10;public java.util.List&lt;java.util.function.Consumer&lt;$Type$&gt;&gt; get$Name$Listeners(){&#10;   return $name$Listeners;&#10;}" description="Creates a new functional event using a Consumer" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
@@ -28,6 +28,16 @@
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="bievent" value="private final java.util.List&lt;java.util.function.Consumer&lt;$First$, $Second$&gt;&gt; $name$Listeners = new java.util.ArrayList&lt;&gt;();&#10;&#10;public BiConsumer&lt;$First$, $Second$&gt; on$Name$(BiConsumer&lt;$First$, $Second$&gt; listener){&#10;&#9;$name$Listeners.add(listener);&#10;    return listener;&#10;}&#10;&#10;public java.util.List&lt;java.util.function.Consumer&lt;$Type$&gt;&gt; get$Name$Listeners(){&#10;   return $name$Listeners;&#10;}" description="Creates a new functional event using a BiConsumer" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="First" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Second" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
