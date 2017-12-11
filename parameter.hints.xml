@@ -57,6 +57,7 @@
         <added pattern="com.penzzly.engine.core.components.command.CommandGroup.onCommand(name,command)" />
         <added pattern="com.penzzly.engine.core.base.configuration.MapConfiguration.getOrSet(key,defaultValue)" />
         <added pattern="net.javelyn.BaseChannel.BaseChannel(initialCapacity,channel)" />
+        <added pattern="dip(depth)" />
       </blacklist>
     </blacklists>
   </component>
