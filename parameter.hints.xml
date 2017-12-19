@@ -59,6 +59,7 @@
         <added pattern="net.javelyn.BaseChannel.BaseChannel(initialCapacity,channel)" />
         <added pattern="dip(depth)" />
         <added pattern="java.lang.String.join(delimiter,elements)" />
+        <added pattern="java.lang.System.getenv(name)" />
       </blacklist>
     </blacklists>
   </component>
