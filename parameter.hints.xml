@@ -60,6 +60,7 @@
         <added pattern="dip(depth)" />
         <added pattern="java.lang.String.join(delimiter,elements)" />
         <added pattern="java.lang.System.getenv(name)" />
+        <added pattern="API.newNavigate(path,params)" />
       </blacklist>
     </blacklists>
   </component>
