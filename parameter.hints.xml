@@ -64,6 +64,7 @@
         <added pattern="org.openqa.selenium.WebElement.sendKeys(keysToSend)" />
         <added pattern="API.byTag(name)" />
         <added pattern="org.openqa.selenium.WebElement.getAttribute(name)" />
+        <added pattern="java.lang.Thread.sleep(millis)" />
       </blacklist>
     </blacklists>
   </component>
