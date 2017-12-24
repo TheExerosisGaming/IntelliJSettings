@@ -61,6 +61,9 @@
         <added pattern="java.lang.String.join(delimiter,elements)" />
         <added pattern="java.lang.System.getenv(name)" />
         <added pattern="API.newNavigate(path,params)" />
+        <added pattern="org.openqa.selenium.WebElement.sendKeys(keysToSend)" />
+        <added pattern="API.byTag(name)" />
+        <added pattern="org.openqa.selenium.WebElement.getAttribute(name)" />
       </blacklist>
     </blacklists>
   </component>
