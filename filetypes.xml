@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="exe" type="Native" />
       <mapping ext="wim" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="XML" />
     </extensionMap>
