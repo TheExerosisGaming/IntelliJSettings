@@ -66,6 +66,7 @@
         <added pattern="org.openqa.selenium.WebElement.getAttribute(name)" />
         <added pattern="java.lang.Thread.sleep(millis)" />
         <added pattern="org.bukkit.util.Vector.Vector(x,y,z)" />
+        <added pattern="com.taptweaker.client.TapTweaker.breadcrumb(category,message)" />
       </blacklist>
     </blacklists>
   </component>
