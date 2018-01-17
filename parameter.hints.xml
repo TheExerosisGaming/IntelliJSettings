@@ -68,6 +68,8 @@
         <added pattern="org.bukkit.util.Vector.Vector(x,y,z)" />
         <added pattern="com.taptweaker.client.TapTweaker.breadcrumb(category,message)" />
         <added pattern="java.util.stream.Collectors.joining(delimiter)" />
+        <added pattern="com.penzzly.engine.architecture.utilites.Swi.Ca.se(value,se)" />
+        <added pattern="com.penzzly.engine.architecture.utilites.Swi.tch(input,closure)" />
       </blacklist>
     </blacklists>
   </component>
