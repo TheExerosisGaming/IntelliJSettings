@@ -67,6 +67,7 @@
         <added pattern="java.lang.Thread.sleep(millis)" />
         <added pattern="org.bukkit.util.Vector.Vector(x,y,z)" />
         <added pattern="com.taptweaker.client.TapTweaker.breadcrumb(category,message)" />
+        <added pattern="java.util.stream.Collectors.joining(delimiter)" />
       </blacklist>
     </blacklists>
   </component>
