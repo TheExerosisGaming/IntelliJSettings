@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping ext="exe" type="Native" />
       <mapping ext="wim" type="PLAIN_TEXT" />
-      <mapping ext="php" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="XML" />
     </extensionMap>
   </component>
