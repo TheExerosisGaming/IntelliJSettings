@@ -77,6 +77,5 @@
         <added pattern="react.dom.div(classes,block)" />
       </blacklist>
     </blacklists>
-    <option id="SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER" value="false" />
   </component>
 </application>
