@@ -73,6 +73,8 @@
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
+        <added pattern="react.dom.p(classes,block)" />
+        <added pattern="react.dom.div(classes,block)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_LAMBDA_IMPLICIT_PARAMETER_RECEIVER" value="false" />
