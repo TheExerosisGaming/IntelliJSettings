@@ -71,6 +71,9 @@
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.Ca.se(value,se)" />
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.tch(input,closure)" />
       </blacklist>
+      <blacklist language="Kotlin">
+        <added pattern="kotlin.js.js(code)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
