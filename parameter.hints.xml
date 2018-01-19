@@ -70,6 +70,7 @@
         <added pattern="java.util.stream.Collectors.joining(delimiter)" />
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.Ca.se(value,se)" />
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.tch(input,closure)" />
+        <added pattern="io.sentry.Sentry.init(dsn)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
