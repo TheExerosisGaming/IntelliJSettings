@@ -73,6 +73,9 @@
         <added pattern="io.sentry.Sentry.init(dsn)" />
         <added pattern="com.taptweaker.client.Util.breadcrumb(category,message)" />
         <added pattern="com.fasterxml.jackson.core.JsonParser.getValueAsInt(def)" />
+        <added pattern="com.fasterxml.jackson.core.JsonGenerator.writeBooleanField(fieldName,value)" />
+        <added pattern="com.fasterxml.jackson.core.JsonGenerator.writeNumberField(fieldName,value)" />
+        <added pattern="com.fasterxml.jackson.core.JsonGenerator.writeStringField(fieldName,value)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
