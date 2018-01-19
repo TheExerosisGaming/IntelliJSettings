@@ -71,6 +71,7 @@
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.Ca.se(value,se)" />
         <added pattern="com.penzzly.engine.architecture.utilites.Swi.tch(input,closure)" />
         <added pattern="io.sentry.Sentry.init(dsn)" />
+        <added pattern="com.taptweaker.client.Util.breadcrumb(category,message)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
