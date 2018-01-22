@@ -77,6 +77,7 @@
         <added pattern="com.fasterxml.jackson.core.JsonGenerator.writeNumberField(fieldName,value)" />
         <added pattern="com.fasterxml.jackson.core.JsonGenerator.writeStringField(fieldName,value)" />
         <added pattern="com.fasterxml.jackson.core.JsonParser.getValueAsBoolean(def)" />
+        <added pattern="com.comphenix.protocol.reflect.StructureModifier.read(fieldIndex)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
