@@ -79,6 +79,7 @@
         <added pattern="com.fasterxml.jackson.core.JsonParser.getValueAsBoolean(def)" />
         <added pattern="com.comphenix.protocol.reflect.StructureModifier.read(fieldIndex)" />
         <added pattern="me.exerosis.chess.API.byClass(name)" />
+        <added pattern="com.github.bhlangonijr.chesslib.Board.getFEN(includeCounters)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
