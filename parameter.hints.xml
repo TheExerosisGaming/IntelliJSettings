@@ -80,6 +80,7 @@
         <added pattern="com.comphenix.protocol.reflect.StructureModifier.read(fieldIndex)" />
         <added pattern="me.exerosis.chess.API.byClass(name)" />
         <added pattern="com.github.bhlangonijr.chesslib.Board.getFEN(includeCounters)" />
+        <added pattern="org.openqa.selenium.interactions.Actions.moveToElement(target,xOffset,yOffset)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
