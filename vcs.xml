@@ -94,8 +94,12 @@
           <option name="url" value="https://github.com/MyriaCore/Local-WIM-Deployment-Tool" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/TheExerosisGaming/StackablesPlugin" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Home\Workspace\IntelliJ IDEA" />
+    <option name="cloneParentDir" value="C:\Home\Workspace\IntelliJ IDEA 2018" />
   </component>
 </application>
