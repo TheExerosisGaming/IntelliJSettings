@@ -82,6 +82,8 @@
         <added pattern="com.github.bhlangonijr.chesslib.Board.getFEN(includeCounters)" />
         <added pattern="org.openqa.selenium.interactions.Actions.moveToElement(target,xOffset,yOffset)" />
         <added pattern="org.openqa.selenium.interactions.Actions.moveByOffset(xOffset,yOffset)" />
+        <added pattern="java.lang.String.replace(oldChar,newChar)" />
+        <added pattern="java.text.MessageFormat.format(pattern,arguments)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
