@@ -85,6 +85,8 @@
         <added pattern="java.lang.String.replace(oldChar,newChar)" />
         <added pattern="java.text.MessageFormat.format(pattern,arguments)" />
         <added pattern="com.penzzly.engine.core.utilites.bukkit.ServerUtil.sendPluginMessage(player,channel,messages)" />
+        <added pattern="org.bukkit.plugin.messaging.Messenger.unregisterIncomingPluginChannel(plugin,s,pluginMessageListener)" />
+        <added pattern="org.bukkit.plugin.messaging.Messenger.registerIncomingPluginChannel(plugin,s,pluginMessageListener)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
