@@ -84,6 +84,7 @@
         <added pattern="org.openqa.selenium.interactions.Actions.moveByOffset(xOffset,yOffset)" />
         <added pattern="java.lang.String.replace(oldChar,newChar)" />
         <added pattern="java.text.MessageFormat.format(pattern,arguments)" />
+        <added pattern="com.penzzly.engine.core.utilites.bukkit.ServerUtil.sendPluginMessage(player,channel,messages)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
