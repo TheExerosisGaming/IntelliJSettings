@@ -87,6 +87,7 @@
         <added pattern="com.penzzly.engine.core.utilites.bukkit.ServerUtil.sendPluginMessage(player,channel,messages)" />
         <added pattern="org.bukkit.plugin.messaging.Messenger.unregisterIncomingPluginChannel(plugin,s,pluginMessageListener)" />
         <added pattern="org.bukkit.plugin.messaging.Messenger.registerIncomingPluginChannel(plugin,s,pluginMessageListener)" />
+        <added pattern="com.penzzly.engine.core.mini.MiniConfigurations.Configuration.get(key,or,saveDefault)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
