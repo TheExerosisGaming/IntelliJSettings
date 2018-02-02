@@ -89,6 +89,7 @@
         <added pattern="org.bukkit.plugin.messaging.Messenger.registerIncomingPluginChannel(plugin,s,pluginMessageListener)" />
         <added pattern="com.penzzly.engine.core.mini.MiniConfigurations.Configuration.get(key,or,saveDefault)" />
         <added pattern="com.penzzly.engine.core.mini.MiniConfigurations.Configuration.section(key,saveDefault)" />
+        <added pattern="java.net.URLEncoder.encode(s,enc)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
