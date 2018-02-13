@@ -90,6 +90,7 @@
         <added pattern="com.penzzly.engine.core.mini.MiniConfigurations.Configuration.get(key,or,saveDefault)" />
         <added pattern="com.penzzly.engine.core.mini.MiniConfigurations.Configuration.section(key,saveDefault)" />
         <added pattern="java.net.URLEncoder.encode(s,enc)" />
+        <added pattern="me.exerosis.tablist.Main.test(ping,gameMode,name,displayName)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
