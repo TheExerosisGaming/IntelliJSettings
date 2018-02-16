@@ -95,6 +95,9 @@
         <added pattern="me.exerosis.tablist.TabList.entry(index)" />
         <added pattern="javax.swing.JOptionPane.showMessageDialog(parentComponent,message,title,messageType)" />
         <added pattern="java.lang.String.String(codePoints,offset,count)" />
+        <added pattern="com.taptweaker.executor.CommandLine.Builder.Error.__build(err,redirect)" />
+        <added pattern="com.taptweaker.executor.CommandLine.Builder.Buffer.__build(err,out,redirect,buffer)" />
+        <added pattern="com.taptweaker.executor.CommandLine.Builder.Output.__build(err,out,redirect)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
