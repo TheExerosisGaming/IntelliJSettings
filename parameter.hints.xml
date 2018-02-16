@@ -93,6 +93,7 @@
         <added pattern="me.exerosis.tablist.Main.test(ping,gameMode,name,displayName)" />
         <added pattern="com.comphenix.protocol.wrappers.PlayerInfoData.PlayerInfoData(profile,latency,gameMode,displayName)" />
         <added pattern="me.exerosis.tablist.TabList.entry(index)" />
+        <added pattern="javax.swing.JOptionPane.showMessageDialog(parentComponent,message,title,messageType)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
