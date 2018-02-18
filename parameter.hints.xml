@@ -98,6 +98,7 @@
         <added pattern="com.taptweaker.executor.CommandLine.Builder.Error.__build(err,redirect)" />
         <added pattern="com.taptweaker.executor.CommandLine.Builder.Buffer.__build(err,out,redirect,buffer)" />
         <added pattern="com.taptweaker.executor.CommandLine.Builder.Output.__build(err,out,redirect)" />
+        <added pattern="java.nio.channels.AsynchronousSocketChannel.read(dst,attachment,handler)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
