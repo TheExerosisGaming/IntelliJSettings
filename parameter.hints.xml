@@ -99,6 +99,7 @@
         <added pattern="com.taptweaker.executor.CommandLine.Builder.Buffer.__build(err,out,redirect,buffer)" />
         <added pattern="com.taptweaker.executor.CommandLine.Builder.Output.__build(err,out,redirect)" />
         <added pattern="java.nio.channels.AsynchronousSocketChannel.read(dst,attachment,handler)" />
+        <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskLater(plugin,runnable,l)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
