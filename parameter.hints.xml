@@ -103,6 +103,7 @@
         <added pattern="java.util.concurrent.ThreadLocalRandom.nextInt(origin,bound)" />
         <added pattern="me.exerosis.example.BossZombie.calculateVelocity(from,to,gain)" />
         <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskTimer(plugin,runnable,l,l1)" />
+        <added pattern="com.zaxxer.hikari.HikariConfig.HikariConfig(propertyFileName)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
