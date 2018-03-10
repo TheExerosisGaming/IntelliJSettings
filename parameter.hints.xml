@@ -104,6 +104,8 @@
         <added pattern="me.exerosis.example.BossZombie.calculateVelocity(from,to,gain)" />
         <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskTimer(plugin,runnable,l,l1)" />
         <added pattern="com.zaxxer.hikari.HikariConfig.HikariConfig(propertyFileName)" />
+        <added pattern="com.google.common.base.Preconditions.checkArgument(expression)" />
+        <added pattern="com.google.common.base.Preconditions.checkArgument(expression,errorMessage)" />
       </blacklist>
       <blacklist language="Kotlin">
         <added pattern="kotlin.js.js(code)" />
