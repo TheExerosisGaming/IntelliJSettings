@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="org.bukkit.util.NumberConversions.square(num)" />
+        <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskLater(plugin,runnable,l)" />
       </blacklist>
     </blacklists>
     <option id="SHOW_LAMBDA_RETURN_EXPRESSION" value="false" />
