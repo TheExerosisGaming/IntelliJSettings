@@ -4,6 +4,7 @@
       <blacklist language="Java">
         <added pattern="org.bukkit.util.NumberConversions.square(num)" />
         <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskLater(plugin,runnable,l)" />
+        <added pattern="me.exerosis.testing.redis.Main.saveResource(path,overwrite)" />
       </blacklist>
     </blacklists>
   </component>
