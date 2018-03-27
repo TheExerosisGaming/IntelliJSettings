@@ -9,6 +9,7 @@
         <added pattern="java.nio.file.Paths.get(first,more)" />
         <added pattern="me.exerosis.testing.redis.Main.Punishment.Punishment(reason,duration,id)" />
         <added pattern="me.exerosis.testing.redis.Main.Punishment.Punishment(reason,duration)" />
+        <added pattern="java.lang.ProcessBuilder.ProcessBuilder(command)" />
       </blacklist>
     </blacklists>
   </component>
