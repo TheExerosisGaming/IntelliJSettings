@@ -106,8 +106,12 @@
           <option name="url" value="https://github.com/jhg023/BitBuffer" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/cjalvarado/Course1StarterCode" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Home\Workspace\IntelliJ IDEA 2018" />
+    <option name="cloneParentDir" value="C:\Home\Workspace\Courses" />
   </component>
 </application>
