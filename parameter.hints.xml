@@ -16,6 +16,7 @@
         <added pattern="de.fhpotsdam.unfolding.UnfoldingMap.UnfoldingMap(pApplet,v,v1,v2,v3,abstractMapProvider)" />
         <added pattern="processing.core.PApplet.size(w,h,renderer)" />
         <added pattern="de.fhpotsdam.unfolding.utils.MapUtils.createDefaultEventDispatcher(pApplet,unfoldingMaps)" />
+        <added pattern="processing.core.PGraphics.triangle(x1,y1,x2,y2,x3,y3)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
