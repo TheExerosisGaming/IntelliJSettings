@@ -1,6 +1,7 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
       <blacklist language="Java">
         <added pattern="org.bukkit.util.NumberConversions.square(num)" />
         <added pattern="org.bukkit.scheduler.BukkitScheduler.runTaskLater(plugin,runnable,l)" />
@@ -10,7 +11,14 @@
         <added pattern="me.exerosis.testing.redis.Main.Punishment.Punishment(reason,duration,id)" />
         <added pattern="me.exerosis.testing.redis.Main.Punishment.Punishment(reason,duration)" />
         <added pattern="java.lang.ProcessBuilder.ProcessBuilder(command)" />
+        <added pattern="de.fhpotsdam.unfolding.data.GeoJSONReader.loadData(pApplet,s)" />
+        <added pattern="parsing.ParseFeed.parseEarthquake(p,fileName)" />
+        <added pattern="de.fhpotsdam.unfolding.UnfoldingMap.UnfoldingMap(pApplet,v,v1,v2,v3,abstractMapProvider)" />
+        <added pattern="processing.core.PApplet.size(w,h,renderer)" />
+        <added pattern="de.fhpotsdam.unfolding.utils.MapUtils.createDefaultEventDispatcher(pApplet,unfoldingMaps)" />
       </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
     </blacklists>
   </component>
 </application>
