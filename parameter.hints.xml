@@ -28,6 +28,8 @@
         <added pattern="processing.core.PGraphics.line(x1,y1,x2,y2)" />
         <added pattern="de.fhpotsdam.unfolding.marker.AbstractMarker.getStringProperty(s)" />
         <added pattern="module6.points.Earthquake.Earthquake(feature,ocean)" />
+        <added pattern="processing.core.PGraphics.rect(a,b,c,d)" />
+        <added pattern="processing.core.PApplet.background(rgb)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
