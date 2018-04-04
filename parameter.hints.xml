@@ -17,6 +17,9 @@
         <added pattern="processing.core.PApplet.size(w,h,renderer)" />
         <added pattern="de.fhpotsdam.unfolding.utils.MapUtils.createDefaultEventDispatcher(pApplet,unfoldingMaps)" />
         <added pattern="processing.core.PGraphics.triangle(x1,y1,x2,y2,x3,y3)" />
+        <added pattern="spark.Request.queryParamOrDefault(queryParam,defaultValue)" />
+        <added pattern="spark.Spark.get(path,route)" />
+        <added pattern="java.util.stream.Collectors.joining(delimiter,prefix,suffix)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
