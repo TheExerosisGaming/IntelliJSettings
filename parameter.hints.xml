@@ -20,6 +20,7 @@
         <added pattern="spark.Request.queryParamOrDefault(queryParam,defaultValue)" />
         <added pattern="spark.Spark.get(path,route)" />
         <added pattern="java.util.stream.Collectors.joining(delimiter,prefix,suffix)" />
+        <added pattern="processing.core.PApplet.triangle(x1,y1,x2,y2,x3,y3)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
