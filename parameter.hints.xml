@@ -21,6 +21,10 @@
         <added pattern="spark.Spark.get(path,route)" />
         <added pattern="java.util.stream.Collectors.joining(delimiter,prefix,suffix)" />
         <added pattern="processing.core.PApplet.triangle(x1,y1,x2,y2,x3,y3)" />
+        <added pattern="processing.core.PApplet.line(x1,y1,x2,y2)" />
+        <added pattern="processing.core.PApplet.rect(a,b,c,d)" />
+        <added pattern="processing.core.PApplet.stroke(rgb)" />
+        <added pattern="processing.core.PApplet.text(str,x,y)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
