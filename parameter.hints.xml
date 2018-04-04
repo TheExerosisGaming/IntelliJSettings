@@ -27,6 +27,7 @@
         <added pattern="processing.core.PApplet.text(str,x,y)" />
         <added pattern="processing.core.PGraphics.line(x1,y1,x2,y2)" />
         <added pattern="de.fhpotsdam.unfolding.marker.AbstractMarker.getStringProperty(s)" />
+        <added pattern="module6.points.Earthquake.Earthquake(feature,ocean)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
