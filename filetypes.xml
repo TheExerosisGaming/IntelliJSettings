@@ -2,10 +2,11 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="exe" type="Native" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="wim" type="PLAIN_TEXT" />
-      <mapping ext="lua" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="lua" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="XML" />
     </extensionMap>
   </component>
